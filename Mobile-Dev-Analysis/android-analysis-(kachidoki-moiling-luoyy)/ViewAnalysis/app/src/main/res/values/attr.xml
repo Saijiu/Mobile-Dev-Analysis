@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<declare-styleable name="EasyView">
+    
+    <attr name="luowuxia" format="boolean|integer"/>
+    <attr name="hongyan"  format="boolean|integer"/>
+
+</declare-styleable>
+    
+
+</resources>
