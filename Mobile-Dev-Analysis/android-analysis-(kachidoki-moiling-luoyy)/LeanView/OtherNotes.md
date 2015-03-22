@@ -85,7 +85,7 @@ public class MainActivity extends Activity {
 > 可以看到，这里先是获取到了LayoutInflater的实例，然后调用它的inflate()方法来加载button_layout这个布局，最后调用LinearLayout的addView()方法将它添加到LinearLayout中。
 >我们跑一下虚拟机：
 >
-![image](https://github.com/moiling/mAndroidViewLeaning/blob/master/LeanView/art/1.png)
+![image](https://github.com/AndroidView/Mobile-Dev-Analysis/blob/master/Mobile-Dev-Analysis/android-analysis-(kachidoki-moiling-luoyy)/LeanView/art/1.png)
 >
 >成功将Button显示出来了
 >LayoutInflater技术广泛应用于需要动态添加View的时候，比如在ScrollView和ListView中，经常都可以看到LayoutInflater的身影。
