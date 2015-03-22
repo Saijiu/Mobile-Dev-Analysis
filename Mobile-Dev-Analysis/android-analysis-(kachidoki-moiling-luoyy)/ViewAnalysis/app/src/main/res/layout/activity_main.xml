@@ -5,9 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 <com.example.administrator.viewanalysis.EasyView
+    android:id="@+id/easyView"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     app:luowuxia="12"
-    app:hongyan="true"/>
+    app:hongyan="true"
+/>
 
 </RelativeLayout>
